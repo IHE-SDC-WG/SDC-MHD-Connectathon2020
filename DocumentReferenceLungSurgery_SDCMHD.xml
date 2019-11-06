@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DocumentReference xmlns="http://hl7.org/fhir">
+    <masterIdentifier>
+        <value value="LungSurgCCO.357_1.0.0.DRAFT_sdcFDF1.0542f5b8-31e0-43c1-b7d2-eb24fd14da6a.ver1"/>
+    </masterIdentifier>
+    <!-- ID for this resource appended FormID.FormInstanceVersionURI -->
+    <identifier>
+        <value value="LungSurgCCO.357"/>
+    </identifier>
+    <!-- Matches SDC Lineage -->
+    <identifier>
+        <value value="1.0.0DRAFT"/>
+    </identifier>
+    <!-- Matches SDC form Version -->
+    <identifier>
+        <value value="LungSurgCCO.357_1.0.0.DRAFT_sdcFDF1"/>
+    </identifier>
+    <!-- Matches SDC FormID; should be unique to this Form -->
+    <identifier>
+        <value value="0542f5b8-31e0-43c1-b7d2-eb24fd14da6a"/>
+    </identifier>
+    <!-- Matches SDC FormInstanceURI -->
+    <type>
+        <coding>
+            <system value=""/>
+            <code value=""/>
+            <display value=""/>
+        </coding>
+    </type>
+    <category>
+        <coding>
+            <system value="http://loinc.org"/> 
+            <code value="11504-8"/> 
+            <display value="Surgical operation note "/> 
+        </coding>
+    </category>
+    <status value="current"/>
+    <docStatus value="final"/>
+    <!-- Must us FHIR statuses for docStatus -->
+    <subject>
+        <reference value="Patient/"/>
+        <display value=""/>
+    </subject>
+    <date value="2019-10-24T09:43:41+11:00"/>
+    <author>
+        <reference value="Practitioner/"/>
+        <display value=""/>
+    </author>
+    <securityLabel>
+        <coding>
+            <system value=""/> 
+            <code value=""/> 
+            <display value=""/> 
+        </coding>
+    </securityLabel>
+    <content>
+        <attachment>
+            <contentType value="application/xml"/>
+            <language value="en-CA"/>
+            <url value="http://somehospital.com/Binary/SDCpkgLungSurg.0542f5b8-31e0-43c1-b7d2-eb24fd14da6a.ver1"/>
+        </attachment>
+    </content>
+    <context>
+        <related>
+            <reference value="Observation/LungSurgCCO.357_1.0.0.DRAFT_sdcFDF1.FormInstanceVersionURI.77350"/>
+        </related>
+        <related>
+            <reference value="Observation/LungSurgCCO.357_1.0.0.DRAFT_sdcFDF1.FormInstanceVersionURI.77334"/>
+        </related>
+    </context>
+</DocumentReference>

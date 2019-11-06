@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DocumentReference xmlns="http://hl7.org/fhir">
+    <masterIdentifier>
+        <value value="BlankSDC.DocumentReference"/>
+    </masterIdentifier>
+    <!-- ID for this resource appended FormID.FormInstanceVersionURI - 
+        we can potentially use just the FormInstanceVersionURI here without the FormID inaddition - 
+        confirm this in SDC technical reference Guide-->
+    <!-- Can we create a short valueset of SDC identifier types to be referenced in the identifiers?--> 
+    <identifier>
+        <value value=""/>
+    </identifier>
+    <!-- Matches SDC Lineage -->
+    <identifier>
+        <value value=""/>
+    </identifier>
+    <!-- Matches SDC Version -->
+    <identifier>
+        <value value=""/>
+    </identifier>
+    <!-- Matches SDC FormID; should be unique to this Form -->
+    <identifier>
+        <value value=""/>
+    </identifier>
+    <!-- Matches SDC FormInstanceURI -->
+    <status value="current"/>
+    <docStatus value="final"/>
+    <!-- Must us FHIR statuses for docStatus -->
+    <subject>
+        <reference value=""/>
+        <display value=""/>
+    </subject>
+    <date value=""/>
+    <author>
+        <reference value=""/>
+        <display value=""/>
+    </author>
+    <content>
+        <attachment>
+            <contentType value="application/xml"/>
+            <language value="en-CA"/>
+            <!-- likely en-US or en-CA --> 
+            <url value=""/>
+        </attachment>
+    </content>
+    <context>
+        <related>
+            <reference value=""/>
+        </related>
+        <related>
+            <reference value=""/>
+        </related>
+        <related>
+            <reference value=""/>
+        </related>
+    </context>
+</DocumentReference>
