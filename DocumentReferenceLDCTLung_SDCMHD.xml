@@ -38,8 +38,8 @@
     </category>
     <!-- Must us FHIR statuses for docStatus -->
     <subject>
-        <reference value="Patient/"/>
-        <display value=""/>
+        <reference value="Patient/IHERED-3004"/>
+        <display value="Marget SDC-THREE"/>
     </subject>
     <date value="2019-10-24T09:43:41+11:00"/>
     <author>

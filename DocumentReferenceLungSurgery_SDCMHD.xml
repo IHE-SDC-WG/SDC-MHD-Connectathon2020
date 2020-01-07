@@ -38,8 +38,8 @@
     <docStatus value="final"/>
     <!-- Must us FHIR statuses for docStatus -->
     <subject>
-        <reference value="Patient/"/>
-        <display value=""/>
+        <reference value="Patient/IHERED-3003"/>
+        <display value="Julio SDC-TWO"/>
     </subject>
     <date value="2019-10-24T09:43:41+11:00"/>
     <author>

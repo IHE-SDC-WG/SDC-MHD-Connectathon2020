@@ -38,8 +38,8 @@
         </coding>
     </category>
     <subject>
-        <reference value="Patient/"/>
-        <display value=""/>
+        <reference value="Patient/IHERED-2999"/>
+        <display value="Frederick SDC-ONE"/>
     </subject>
     <date value="2018-12-24T09:43:41+11:00"/>
     <author>
