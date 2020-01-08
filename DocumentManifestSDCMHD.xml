@@ -32,10 +32,16 @@
     <description value="Cancer Registry Content (CRC)"/> 
     <content> 
         <reference value="DocumentReference/Adrenal.Bx.Res.129_3.002.011.RC1_sdcFDF1.f96d3fea-62b3-47e9-8443-f199c2f946f0.ver1"/>
-        <reference value="DocumentReference/Breast.Bmk.169_1.003.001.CTP3_sdcFDF.f96d3fea-62b3-47e9-8443-f199c2f946j9.ver1"/>
+    </content>
+    <content>         
+        <reference value="DocumentReference/Breast.Bmk.169_1.003.001.CTP3_sdcFDF.f96d3fea-62b3-47e9-8443-f199c2f946j9.ver1"/>       
+    </content>
+    <content>      
         <reference value="DocumentReference/LungSurgCCO.357_1.0.0.DRAFT_sdcFDF1.0542f5b8-31e0-43c1-b7d2-eb24fd14da6a.ver1"/>
+    </content>
+    <content>
         <reference value="DocumentReferenceLDCT_Lung1.13097849f20938r0ufjf993242.ver1"/>
-    </content> 
+    </content>
     <related> 
         <identifier> 
             <system value="http://example.org/documents"/> 
