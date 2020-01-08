@@ -1,26 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DocumentManifest xmlns="http://hl7.org/fhir">
-    <id value="example"/> 
     <text> 
         <status value="generated"/> 
         <div xmlns="http://www.w3.org/1999/xhtml">Text</div> 
     </text> 
-    <!--   Many XDS systems do not track any id for the author. When systems don't do this, 
-    the only option is for the author information to be contained in the Document Reference
-     -->
-    <contained> 
-        <Practitioner> 
-            <id value="a1"/> 
-            <name> 
-                <family value="Dopplemeyer"/> 
-                <given value="Sherry"/> 
-            </name> 
-            <telecom> 
-                <system value="email"/> 
-                <value value="john.doe@healthcare.example.org"/> 
-            </telecom> 
-        </Practitioner> 
-    </contained> 
     <masterIdentifier> 
         <system value="http://example.org/documents"/> 
         <value value="23425234234-2346"/> 
@@ -28,25 +11,30 @@
     <identifier> 
         <system value="http://example.org/documents"/> 
         <value value="23425234234-2347"/> 
+    </identifier>
+    <identifier> 
+        <system value="http://example.org/documents"/> 
+        <value value="23425234234-1475"/> 
     </identifier> 
     <status value="current"/> 
     <type> 
         <text value="History and Physical"/> 
-    </type> 
-    <subject> 
-        <reference value="Patient/xcda"/> 
-    </subject> 
+    </type>  
     <created value="2004-12-25T23:50:50-05:00"/> 
     <author> 
-        <reference value="#a1"/> 
+        <reference value="Practitioner/urn:uuid:0e3ba7dd-bfe3-4eb9-a510-4676f245ef46"/>
+        <display value="Rhonda Rogers"/>
     </author> 
     <recipient> 
-        <reference value="Practitioner/xcda1"/> 
-    </recipient> 
-    <source value="urn:oid:1.3.6.1.4.1.21367.2009.1.2.1"/> 
-    <description value="Physical"/> 
+        <reference value="Practitioner/urn:uuid:d973d698-5b43-4340-acc9-de48d0acb376"/> 
+        <display value="Carla Carrara"/>
+    </recipient>  
+    <description value="Cancer Registry Content (CRC)"/> 
     <content> 
-        <reference value="DocumentReference/example"/> 
+        <reference value="DocumentReference/Adrenal.Bx.Res.129_3.002.011.RC1_sdcFDF1.f96d3fea-62b3-47e9-8443-f199c2f946f0.ver1"/>
+        <reference value="DocumentReference/Breast.Bmk.169_1.003.001.CTP3_sdcFDF.f96d3fea-62b3-47e9-8443-f199c2f946j9.ver1"/>
+        <reference value="DocumentReference/LungSurgCCO.357_1.0.0.DRAFT_sdcFDF1.0542f5b8-31e0-43c1-b7d2-eb24fd14da6a.ver1"/>
+        <reference value="DocumentReferenceLDCT_Lung1.13097849f20938r0ufjf993242.ver1"/>
     </content> 
     <related> 
         <identifier> 

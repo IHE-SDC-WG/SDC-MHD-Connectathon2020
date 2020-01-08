@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DocumentReference xmlns="http://hl7.org/fhir">
+    <text> 
+        <status value="generated"/> 
+        <div xmlns="http://www.w3.org/1999/xhtml">Low Dose CT for Cancer Screening for Margaret SDC-THREE </div> 
+    </text>
     <masterIdentifier>
         <value value="LDCT_Lung1.13097849f20938r0ufjf993242.ver1"/>
     </masterIdentifier>
@@ -39,12 +43,12 @@
     <!-- Must us FHIR statuses for docStatus -->
     <subject>
         <reference value="Patient/IHERED-3004"/>
-        <display value="Marget SDC-THREE"/>
+        <display value="Margaret SDC-THREE"/>
     </subject>
     <date value="2019-10-24T09:43:41+11:00"/>
     <author>
-        <reference value="Practitioner/"/>
-        <display value=""/>
+        <reference value="Practitioner/urn:uuid:c54d631b-d1be-4754-89e4-732ed73c4b50"/>
+        <display value="Theodora Fredricks"/>
     </author>
     <securityLabel>
         <coding>

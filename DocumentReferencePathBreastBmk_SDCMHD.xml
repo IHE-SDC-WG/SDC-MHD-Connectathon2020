@@ -2,26 +2,26 @@
 <DocumentReference xmlns="http://hl7.org/fhir">
     <text> 
         <status value="generated"/> 
-        <div xmlns="http://www.w3.org/1999/xhtml">Adrenal Pathology form about Frederick SDC-ONE</div> 
+        <div xmlns="http://www.w3.org/1999/xhtml">Breast Biomarker report for Kendra SDC-FOUR</div> 
     </text>
     <masterIdentifier>
-        <value value="Adrenal.Bx.Res.129_3.002.011.RC1_sdcFDF1.f96d3fea-62b3-47e9-8443-f199c2f946f0.ver1"/>
+        <value value="Breast.Bmk.169_1.003.001.CTP3_sdcFDF.f96d3fea-62b3-47e9-8443-f199c2f946j9.ver1"/>
     </masterIdentifier>
     <!-- ID for this resource appended FormID.FormInstanceVersionURI -->
     <identifier>
-        <value value="Adrenal.Bx.Res.129"/>
+        <value value="Breast.Bmk.169"/>
     </identifier>
     <!-- Matches SDC Lineage -->
     <identifier>
-        <value value="3.002.011.RC1"/>
+        <value value="1.003.001.CTP"/>
     </identifier>
     <!-- Matches SDC form Version -->
     <identifier>
-        <value value="Adrenal.Bx.Res.129_3.002.011.RC1_sdcFDF1"/>
+        <value value="Breast.Bmk.169_1.003.001.CTP3_sdcFDF"/>
     </identifier>
     <!-- Matches SDC FormID; should be unique to this Form -->
     <identifier>
-        <value value="f96d3fea-62b3-47e9-8443-f199c2f946f0"/>
+        <value value="f96d3fea-62b3-47e9-8443-f199c2f946j9"/>
     </identifier>
     <!-- Matches SDC FormInstanceURI -->
     <status value="current"/>
@@ -42,8 +42,8 @@
         </coding>
     </category>
     <subject>
-        <reference value="Patient/IHERED-2999"/>
-        <display value="Frederick SDC-ONE"/>
+        <reference value="Patient/IHERED-3005"/>
+        <display value="Kendra SDC-FOUR"/>
     </subject>
     <date value="2018-12-24T09:43:41+11:00"/>
     <author>
@@ -62,7 +62,7 @@
             <contentType value="application/xml"/>
             <language value="en-US"/>
             <!-- likely en-US or en-CA --> 
-            <data value="http://somehost.com/Binary/SDCpkgAdrenal.f96d3fea-62b3-47e9-8443-f199c2f946f0.ver1"/>
+            <data value="http://somehost.com/Binary/SDCpkgBreast.f96d3fea-62b3-47e9-8443-f199c2f946j9.ver1"/>
         </attachment>
         <format>
             <system value="http://ihe.net/fhir/ValueSet/IHE.FormatCode.codsystem"/> 
@@ -70,18 +70,4 @@
             <display value="Cancer Registry Content (CRC)"/> 
         </format>
     </content>
-    <context>
-        <related>
-            <reference value="Observations/Adrenal.Bx.Res.129_3.002.011.RC1_sdcFDF.f96d3fea-62b3-47e9-8443-f199c2f946f0.ver1.2118.100004300"/>
-        </related>
-        <related>
-            <reference value="Observations/Adrenal.Bx.Res.129_3.002.011.RC1_sdcFDF.f96d3fea-62b3-47e9-8443-f199c2f946f0.ver1.49275.100004300"/>
-        </related>
-        <related>
-            <reference value="Observations/Adrenal.Bx.Res.129_3.002.011.RC1_sdcFDF.f96d3fea-62b3-47e9-8443-f199c2f946f0.ver1.59852.100004300"/>
-        </related>
-        <related>
-            <reference value="Observations/Adrenal.Bx.Res.129_3.002.011.RC1_sdcFDF.f96d3fea-62b3-47e9-8443-f199c2f946f0.ver1.52756.100004300"/>
-        </related>
-    </context>
 </DocumentReference>

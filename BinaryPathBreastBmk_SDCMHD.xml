@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Binary xmlns="http://hl7.org/fhir">
+    <id value="SDCpkgBreast.f96d3fea-62b3-47e9-8443-f199c2f946j9.ver1"/> 
+<contentType value="application/xml"/> 
+<securityContext> 
+    <reference value="DocumentReference/Breast.Bmk.169_1.003.001.CTP3_sdcFDF.f96d3fea-62b3-47e9-8443-f199c2f946j9.ver1"/> 
+</securityContext> 
+    <data value=""/>
+</Binary>
