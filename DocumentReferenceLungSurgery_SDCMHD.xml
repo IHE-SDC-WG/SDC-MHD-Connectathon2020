@@ -62,7 +62,7 @@
         <attachment>
             <contentType value="application/xml"/>
             <language value="en-CA"/>
-            <url value="http://somehospital.com/Binary/SDCpkgLungSurg.0542f5b8-31e0-43c1-b7d2-eb24fd14da6a.ver1"/>
+            <url value="/Binary/SDCpkgLungSurg.0542f5b8-31e0-43c1-b7d2-eb24fd14da6a.ver1"/>
         </attachment>
         <format>
             <system value="http://ihe.net/fhir/ValueSet/IHE.FormatCode.codsystem"/> 

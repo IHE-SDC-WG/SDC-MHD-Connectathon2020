@@ -62,7 +62,7 @@
             <contentType value="application/xml"/>
             <language value="en-US"/>
             <!-- likely en-US or en-CA --> 
-            <data value="http://somehost.com/Binary/SDCpkgAdrenal.f96d3fea-62b3-47e9-8443-f199c2f946f0.ver1"/>
+            <url value="/Binary/SDCpkgAdrenal.f96d3fea-62b3-47e9-8443-f199c2f946f0.ver1"/>
         </attachment>
         <format>
             <system value="http://ihe.net/fhir/ValueSet/IHE.FormatCode.codsystem"/> 
