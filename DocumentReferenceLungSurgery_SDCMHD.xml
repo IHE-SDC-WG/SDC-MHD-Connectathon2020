@@ -40,7 +40,6 @@
             <display value="REPORTS"/>
         </coding>
     </category>
-
     <!-- Must us FHIR statuses for docStatus -->
     <subject>
         <reference value="Patient/IHERED-3003"/>

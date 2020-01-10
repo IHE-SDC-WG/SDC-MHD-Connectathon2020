@@ -18,8 +18,13 @@
     </identifier> 
     <status value="current"/> 
     <type> 
-        <text value="History and Physical"/> 
-    </type>  
+        <system value="http://terminology.hl7.org/ValueSet/v3-ActCode"/>
+        <value value="X"/> 
+    </type>
+    <subject>
+        <reference value="Patient/IHERED-3003"/>
+        <display value="Julio SDC-TWO"/>
+    </subject>
     <created value="2004-12-25T23:50:50-05:00"/> 
     <author> 
         <reference value="Practitioner/urn:uuid:0e3ba7dd-bfe3-4eb9-a510-4676f245ef46"/>
@@ -28,27 +33,13 @@
     <recipient> 
         <reference value="Practitioner/urn:uuid:d973d698-5b43-4340-acc9-de48d0acb376"/> 
         <display value="Carla Carrara"/>
-    </recipient>  
+    </recipient>
+    <source value="https://somehospital.com/fhir/lungCancer"/>
     <description value="Cancer Registry Content (CRC)"/> 
-    <content> 
-        <reference value="DocumentReference/Adrenal.Bx.Res.129_3.002.011.RC1_sdcFDF1.f96d3fea-62b3-47e9-8443-f199c2f946f0.ver1"/>
-    </content>
-    <content>         
-        <reference value="DocumentReference/Breast.Bmk.169_1.003.001.CTP3_sdcFDF.f96d3fea-62b3-47e9-8443-f199c2f946j9.ver1"/>       
-    </content>
     <content>      
         <reference value="DocumentReference/LungSurgCCO.357_1.0.0.DRAFT_sdcFDF1.0542f5b8-31e0-43c1-b7d2-eb24fd14da6a.ver1"/>
     </content>
     <content>
         <reference value="DocumentReferenceLDCT_Lung1.13097849f20938r0ufjf993242.ver1"/>
-    </content>
-    <related> 
-        <identifier> 
-            <system value="http://example.org/documents"/> 
-            <value value="23425234234-9999"/> 
-        </identifier> 
-        <ref> 
-            <reference value="DocumentReference/example"/> 
-        </ref> 
-    </related> 
+    </content> 
 </DocumentManifest> 

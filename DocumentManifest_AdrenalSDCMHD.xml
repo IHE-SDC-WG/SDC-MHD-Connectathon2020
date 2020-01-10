@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DocumentManifest xmlns="http://hl7.org/fhir">
+    <text> 
+        <status value="generated"/> 
+        <div xmlns="http://www.w3.org/1999/xhtml">Text</div> 
+    </text> 
+    <masterIdentifier> 
+        <system value="http://example.org/documents"/> 
+        <value value="23425234234-2346"/> 
+    </masterIdentifier> 
+    <identifier> 
+        <system value="http://example.org/documents"/> 
+        <value value="23425234234-2347"/> 
+    </identifier>
+    <identifier> 
+        <system value="http://example.org/documents"/> 
+        <value value="23425234234-1475"/> 
+    </identifier> 
+    <status value="current"/> 
+    <type> 
+        <system value="http://terminology.hl7.org/ValueSet/v3-ActCode"/>
+        <value value="X"/> 
+    </type>
+    <subject>
+        <reference value="Patient/IHERED-2999"/>
+        <display value="Frederick SDC-ONE"/>
+    </subject>
+    <created value="2004-12-25T23:50:50-05:00"/> 
+    <author> 
+        <reference value="Practitioner/urn:uuid:0e3ba7dd-bfe3-4eb9-a510-4676f245ef46"/>
+        <display value="Rhonda Rogers"/>
+    </author> 
+    <recipient> 
+        <reference value="Practitioner/urn:uuid:d973d698-5b43-4340-acc9-de48d0acb376"/> 
+        <display value="Carla Carrara"/>
+    </recipient> 
+    <source value="https://somehospital.com/fhir/lungCancer"/>
+    <description value="Cancer Registry Content (CRC)"/> 
+    <content> 
+        <reference value="DocumentReference/Adrenal.Bx.Res.129_3.002.011.RC1_sdcFDF1.f96d3fea-62b3-47e9-8443-f199c2f946f0.ver1"/>
+    </content>
+</DocumentManifest> 
