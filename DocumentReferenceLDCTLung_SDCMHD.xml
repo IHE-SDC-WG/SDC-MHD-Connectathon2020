@@ -8,27 +8,27 @@
         <div xmlns="http://www.w3.org/1999/xhtml">Low Dose CT for Cancer Screening for Margaret SDC-THREE </div> 
     </text>
     <masterIdentifier>
-        <system value="ontariohealth.ca/cco/sdc"/>
+        <system value="https://ontariohealth.ca/cco/sdc"/>
         <value value="LDCT_Lung1.13097849f20938r0ufjf993242.ver1"/>
     </masterIdentifier>
     <!-- ID for this resource appended FormID.FormInstanceVersionURI -->
     <identifier>
-        <system value="ontariohealth.ca/cco/sdc"/>
+        <system value="https://ontariohealth.ca/cco/sdc"/>
         <value value="LDCT_Lung"/>
     </identifier>
     <!-- Matches SDC Lineage -->
     <identifier>
-        <system value="ontariohealth.ca/cco/sdc"/>
+        <system value="https://ontariohealth.ca/cco/sdc"/>
         <value value="1.0.0"/>
     </identifier>
     <!-- Matches SDC Version -->
     <identifier>
-        <system value="ontariohealth.ca/cco/sdc"/>
+        <system value="https://ontariohealth.ca/cco/sdc"/>
         <value value="LDCT_Lung1"/>
     </identifier>
     <!-- Matches SDC FormID; should be unique to this Form -->
     <identifier>
-        <system value="ontariohealth.ca/cco/sdc"/>
+        <system value="https://ontariohealth.ca/cco/sdc"/>
         <value value="13097849f20938r0ufjf993242"/>
     </identifier>
     <!-- Matches SDC FormInstanceURI -->

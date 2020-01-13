@@ -8,27 +8,27 @@
         <div xmlns="http://www.w3.org/1999/xhtml">Lung Cancer Surgery form about Julio SDC-TWO</div> 
     </text>
     <masterIdentifier>
-        <system value="ontariohealth.ca/cco/sdc"/>
+        <system value="https://ontariohealth.ca/cco/sdc"/>
         <value value="LungSurgCCO.357_1.0.0.DRAFT_sdcFDF1.0542f5b8-31e0-43c1-b7d2-eb24fd14da6a.ver1"/>
     </masterIdentifier>
     <!-- ID for this resource appended FormID.FormInstanceVersionURI -->
     <identifier>
-        <system value="ontariohealth.ca/cco/sdc"/>
+        <system value="https://ontariohealth.ca/cco/sdc"/>
         <value value="LungSurgCCO.357"/>
     </identifier>
     <!-- Matches SDC Lineage -->
     <identifier>
-        <system value="ontariohealth.ca/cco/sdc"/>
+        <system value="https://ontariohealth.ca/cco/sdc"/>
         <value value="1.0.0DRAFT"/>
     </identifier>
     <!-- Matches SDC form Version -->
     <identifier>
-        <system value="ontariohealth.ca/cco/sdc"/>
+        <system value="https://ontariohealth.ca/cco/sdc"/>
         <value value="LungSurgCCO.357_1.0.0.DRAFT_sdcFDF1"/>
     </identifier>
     <!-- Matches SDC FormID; should be unique to this Form -->
     <identifier>
-        <system value="ontariohealth.ca/cco/sdc"/>
+        <system value="https://ontariohealth.ca/cco/sdc"/>
         <value value="0542f5b8-31e0-43c1-b7d2-eb24fd14da6a"/>
     </identifier>
     <!-- Matches SDC FormInstanceURI -->
