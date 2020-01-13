@@ -1,26 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DocumentReference xmlns="http://hl7.org/fhir">
+    <meta>
+        <profile value="http://ihe.net/fhir/StructureDefinition/IHE_MHD_Provide_Minimal_DocumentReference"/>
+    </meta>
     <text> 
         <status value="generated"/> 
         <div xmlns="http://www.w3.org/1999/xhtml">Breast Biomarker report for Kendra SDC-FOUR</div> 
     </text>
     <masterIdentifier>
+        <system value="https://cap.org"/>
         <value value="Breast.Bmk.169_1.003.001.CTP3_sdcFDF.f96d3fea-62b3-47e9-8443-f199c2f946j9.ver1"/>
     </masterIdentifier>
     <!-- ID for this resource appended FormID.FormInstanceVersionURI -->
     <identifier>
+        <system value="https://cap.org"/>
         <value value="Breast.Bmk.169"/>
     </identifier>
     <!-- Matches SDC Lineage -->
     <identifier>
+        <system value="https://cap.org"/>
         <value value="1.003.001.CTP"/>
     </identifier>
     <!-- Matches SDC form Version -->
     <identifier>
+        <system value="https://cap.org"/>
         <value value="Breast.Bmk.169_1.003.001.CTP3_sdcFDF"/>
     </identifier>
     <!-- Matches SDC FormID; should be unique to this Form -->
     <identifier>
+        <system value="https://cap.org"/>
         <value value="f96d3fea-62b3-47e9-8443-f199c2f946j9"/>
     </identifier>
     <!-- Matches SDC FormInstanceURI -->
@@ -52,9 +60,9 @@
     </author>
     <securityLabel>
         <coding>
-            <system value="https://www.hl7.org/fhir/valueset-security-labels.html"/> 
-            <code value="R"/> 
-            <display value="restricted"/> 
+            <system value="http://terminology.hl7.org/CodeSystem/v3-Confidentiality"/> 
+            <code value="N"/> 
+            <display value="normal"/> 
         </coding>
     </securityLabel>
     <content>

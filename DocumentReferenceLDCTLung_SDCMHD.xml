@@ -1,26 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DocumentReference xmlns="http://hl7.org/fhir">
+    <meta>
+        <profile value="http://ihe.net/fhir/StructureDefinition/IHE_MHD_Provide_Minimal_DocumentReference"/>
+    </meta>
     <text> 
         <status value="generated"/> 
         <div xmlns="http://www.w3.org/1999/xhtml">Low Dose CT for Cancer Screening for Margaret SDC-THREE </div> 
     </text>
     <masterIdentifier>
+        <system value="ontariohealth.ca/cco/sdc"/>
         <value value="LDCT_Lung1.13097849f20938r0ufjf993242.ver1"/>
     </masterIdentifier>
     <!-- ID for this resource appended FormID.FormInstanceVersionURI -->
     <identifier>
+        <system value="ontariohealth.ca/cco/sdc"/>
         <value value="LDCT_Lung"/>
     </identifier>
     <!-- Matches SDC Lineage -->
     <identifier>
+        <system value="ontariohealth.ca/cco/sdc"/>
         <value value="1.0.0"/>
     </identifier>
     <!-- Matches SDC Version -->
     <identifier>
+        <system value="ontariohealth.ca/cco/sdc"/>
         <value value="LDCT_Lung1"/>
     </identifier>
     <!-- Matches SDC FormID; should be unique to this Form -->
     <identifier>
+        <system value="ontariohealth.ca/cco/sdc"/>
         <value value="13097849f20938r0ufjf993242"/>
     </identifier>
     <!-- Matches SDC FormInstanceURI -->
@@ -52,9 +60,9 @@
     </author>
     <securityLabel>
         <coding>
-            <system value="https://www.hl7.org/fhir/valueset-security-labels.html"/> 
-            <code value="R"/> 
-            <display value="restricted"/> 
+            <system value="http://terminology.hl7.org/CodeSystem/v3-Confidentiality"/> 
+            <code value="N"/> 
+            <display value="normal"/> 
         </coding>
     </securityLabel>
     <content>
@@ -69,15 +77,4 @@
             <display value="Cancer Registry Content (CRC)"/> 
         </format>
     </content>
-    <context>
-        <related>
-            <reference value="LDCT_Lung1.13097849f20938r0ufjf993242.ver1.592375972"/>
-        </related>
-        <related>
-            <reference value="LDCT_Lung1.13097849f20938r0ufjf993242.ver1.000046"/>
-        </related>
-        <related>
-            <reference value="LDCT_Lung1.13097849f20938r0ufjf993242.ver1.000048"/>
-        </related>
-    </context>
 </DocumentReference>

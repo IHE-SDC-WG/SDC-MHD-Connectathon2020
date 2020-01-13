@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DocumentManifest xmlns="http://hl7.org/fhir">
+    <meta>
+        <profile value="http://ihe.net/fhir/StructureDefinition/IHE_MHD_Provide_Minimal_DocumentReference"/>
+    </meta>
     <text> 
         <status value="generated"/> 
         <div xmlns="http://www.w3.org/1999/xhtml">Text</div> 
     </text> 
     <masterIdentifier> 
         <system value="http://example.org/documents"/> 
-        <value value="23425234234-2346"/> 
+        <value value="docManAdrenalSDC1"/> 
     </masterIdentifier> 
     <identifier> 
         <system value="http://example.org/documents"/> 
@@ -25,7 +28,7 @@
         <reference value="Patient/IHERED-2999"/>
         <display value="Frederick SDC-ONE"/>
     </subject>
-    <created value="2004-12-25T23:50:50-05:00"/> 
+    <created value="2019-12-25T23:50:50-05:00"/> 
     <author> 
         <reference value="Practitioner/urn:uuid:0e3ba7dd-bfe3-4eb9-a510-4676f245ef46"/>
         <display value="Rhonda Rogers"/>
