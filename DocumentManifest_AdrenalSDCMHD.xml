@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DocumentManifest xmlns="http://hl7.org/fhir">
     <meta>
-        <profile value="http://ihe.net/fhir/StructureDefinition/IHE_MHD_Provide_Minimal_DocumentReference"/>
+        <profile value="http://ihe.net/fhir/StructureDefinition/IHE_MHD_Minimal_DocumentManifest"/>
     </meta>
     <text> 
         <status value="generated"/> 
