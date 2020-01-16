@@ -25,7 +25,7 @@
         <value value="X"/> 
     </type>
     <subject>
-        <reference value="Patient/IHERED-3005"/>
+        <reference value="http://fhir-read-write:8080/fhir/baseR4/Patient/5"/>
         <display value="Kendra SDC-FOUR"/>
     </subject>
     <created value="2019-12-23T23:50:50-05:00"/> 

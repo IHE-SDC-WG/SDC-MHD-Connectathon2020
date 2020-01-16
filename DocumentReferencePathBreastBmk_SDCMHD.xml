@@ -50,7 +50,7 @@
         </coding>
     </category>
     <subject>
-        <reference value="Patient/IHERED-3005"/>
+        <reference value="http://fhir-read-write:8080/fhir/baseR4/Patient/5"/>
         <display value="Kendra SDC-FOUR"/>
     </subject>
     <date value="2018-12-24T09:43:41+11:00"/>
