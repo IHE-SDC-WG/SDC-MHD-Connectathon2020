@@ -55,7 +55,7 @@
     </subject>
     <date value="2019-10-24T09:43:41+11:00"/>
     <author>
-        <reference value="Practitioner/urn:uuid:9a879858-8e96-486b-a2be-05a580f0e6ee"/>
+        <reference value="http://fhir-read-write:8080/fhir/baseR4/Practitioner/137"/>
         <display value="Mary McDonald"/>
     </author>
     <securityLabel>

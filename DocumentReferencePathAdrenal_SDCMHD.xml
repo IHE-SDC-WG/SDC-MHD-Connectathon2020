@@ -55,7 +55,7 @@
     </subject>
     <date value="2018-12-24T09:43:41+11:00"/>
     <author>
-        <reference value="Practitioner/urn:uuid:b6553152-7a90-4940-8d6a-b1017310a159"/>
+        <reference value="http://fhir-read-write:8080/fhir/baseR4/Practitioner/138"/>
         <display value="Robert Robertson"/>
     </author>
     <securityLabel>

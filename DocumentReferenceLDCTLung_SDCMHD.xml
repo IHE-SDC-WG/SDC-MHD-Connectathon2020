@@ -55,7 +55,7 @@
     </subject>
     <date value="2019-10-24T09:43:41+11:00"/>
     <author>
-        <reference value="Practitioner/urn:uuid:c54d631b-d1be-4754-89e4-732ed73c4b50"/>
+        <reference value="http://fhir-read-write:8080/fhir/baseR4/Practitioner/134"/>
         <display value="Theodora Fredricks"/>
     </author>
     <securityLabel>

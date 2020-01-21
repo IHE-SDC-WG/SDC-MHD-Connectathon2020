@@ -30,19 +30,21 @@
     </subject>
     <created value="2019-10-31T23:50:50-05:00"/> 
     <author> 
-        <reference value="Practitioner/urn:uuid:0e3ba7dd-bfe3-4eb9-a510-4676f245ef46"/>
+        <reference value="http://fhir-read-write:8080/fhir/baseR4/Practitioner/139"/>
         <display value="Rhonda Rogers"/>
     </author> 
     <recipient> 
-        <reference value="Practitioner/urn:uuid:d973d698-5b43-4340-acc9-de48d0acb376"/> 
+        <reference value="http://fhir-read-write:8080/fhir/baseR4/Practitioner/133"/> 
         <display value="Carla Carrara"/>
     </recipient>
     <source value="https://somehospital.com/fhir/lungCancer"/>
     <description value="Cancer Registry Content (CRC)"/> 
     <content>      
-        <reference value="DocumentReference/LungSurgCCO.357_1.0.0.DRAFT_sdcFDF1.0542f5b8-31e0-43c1-b7d2-eb24fd14da6a.ver1"/>
+        <reference value="http://fhir-read-write:8080/fhir/baseR4/DocumentReference/353"/>
+        <display value="LungSurgCCO.357_1.0.0.DRAFT_sdcFDF1.0542f5b8-31e0-43c1-b7d2-eb24fd14da6a.ver1"/>
     </content>
     <content>
-        <reference value="DocumentReferenceLDCT_Lung1.13097849f20938r0ufjf993242.ver1"/>
+        <reference value="http://fhir-read-write:8080/fhir/baseR4/DocumentReference/352"/>
+        <display value="LDCT_Lung1.13097849f20938r0ufjf993242.ver1"/>
     </content> 
 </DocumentManifest> 

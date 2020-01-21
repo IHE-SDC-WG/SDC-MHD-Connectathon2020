@@ -30,16 +30,17 @@
     </subject>
     <created value="2019-12-25T23:50:50-05:00"/> 
     <author> 
-        <reference value="Practitioner/urn:uuid:0e3ba7dd-bfe3-4eb9-a510-4676f245ef46"/>
+        <reference value="http://fhir-read-write:8080/fhir/baseR4/Practitioner/139"/>
         <display value="Rhonda Rogers"/>
     </author> 
     <recipient> 
-        <reference value="Practitioner/urn:uuid:d973d698-5b43-4340-acc9-de48d0acb376"/> 
+        <reference value="http://fhir-read-write:8080/fhir/baseR4/Practitioner/133"/> 
         <display value="Carla Carrara"/>
     </recipient> 
     <source value="https://somehospital.com/fhir/lungCancer"/>
     <description value="Cancer Registry Content (CRC)"/> 
     <content> 
-        <reference value="DocumentReference/Adrenal.Bx.Res.129_3.002.011.RC1_sdcFDF1.f96d3fea-62b3-47e9-8443-f199c2f946f0.ver1"/>
+        <reference value="http://fhir-read-write:8080/fhir/baseR4/DocumentReference/302"/>
+        <display value="Adrenal.Bx.Res.129_3.002.011.RC1_sdcFDF1.f96d3fea-62b3-47e9-8443-f199c2f946f0.ver1"/>
     </content>
 </DocumentManifest> 
